@@ -1,0 +1,105 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+* {
+  font-family: myFirstFont;
+  list-style: none;
+  font-weight: 500;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 88px;
+  max-width: 940px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.header_container{
+  min-height: 88px;
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_link:hover {
+  color: #070707;
+  transition: all 0.4s ease 0s;
+}
+
+.menu_link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+
+  font-weight: 700;
+  color: #828282;
+  transition: all 0.4s ease 0s;
+}
+
+.myname {
+  padding-top: 40px;
+  
+}
+
+.myname_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myname_title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #070707;
+}
+
+.myname_text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.myname_label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  color: #070707;
+  transform: rotate(-90deg);
+}
+
+.myname_label span {
+  color: #828282;
+}
+
+.myname_image{
+  padding: 50px 0px 105px 0px;
+}
